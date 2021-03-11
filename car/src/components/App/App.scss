@@ -1,0 +1,66 @@
+.header {
+background: #e97770 url('images/banner.jpg');
+color: #fff;
+height:273px;
+width: 1325px;
+opacity: 1;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+line-height: 25px;
+    box-shadow: 0px 0px 5px 5px #f9d500;
+    position: fixed;
+	margin-top: -8px;
+}
+.Troninfo1{display: inline;}
+
+.car-left{
+display: inline;
+float: left;
+margin-top: 20px;
+}
+.car-right{
+display: inline;
+float: right;
+margin-top: 20px;
+}
+
+.information {
+display: inline;
+padding-top:30px;
+color: #FFF;
+text-align:center;
+font-family: FontAwesome;
+font-size: 2em;
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 1px 1px #FFF;
+  border-radius: 5px;
+  width:67%;
+  margin:auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+    margin: auto;
+    padding-right: 24px;
+}
+
+li a:hover {
+  color:yellow;
+}
